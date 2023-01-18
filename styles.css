@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.attribution { 
+  font-size: 11px;
+   text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+ }
+
+
+ @media(max-width:766px){
+  m-6{
+    margin:0px 16px 0px 16px;
+  }
+ }
+
+
+@media(min-width:766px){
+  .m-6{
+    margin: 0px 33.3% 10px 33.3%;
+    padding-top: 20px;
+    letter-spacing: 14px;
+  }
+
+  .m-7{
+    margin: 0px 33.3% 0px 33.3%;
+    position: relative;
+    top:-60px;
+    width: auto;
+  }
+
+  .attribution { 
+    font-size: 11px;
+    text-align: center;
+    position: fixed;
+    margin-top: -1%;
+    left: 81%;
+ }
+}
+
+
+
+
+.hovers:hover +.hov{
+ display: block;
+ cursor: pointer;
+}
+
+.w-60{
+  width: 30%;
+}
+
+.cursor-p{
+  cursor: pointer;
+}
+
+
+.outline-none{
+  outline: none;
+  text-transform: capitalize;
+}
+
+.fs-6{
+  font-size: 400;
+}
+
+/* Light mode section */
+.hov{
+  background-color: inherit;
+}
+
+body{
+  background-color: hsl(0, 0%, 98%);
+}
+
+.bg-desklight{
+  background-image: url(./images/bg-desktop-light.jpg);
+  height: 40vh;
+  background-size: cover;
+  position: relative;
+}
+.com-col{
+  color: hsl(233, 11%, 84%);
+}
+
+.ac-col{
+  color: hsl(236, 9%, 61%);
+}
+
+.com-col:hover, .ac-col:hover{
+  color: hsl(235, 19%, 35%);
+}
+
+
+
+
+
+
+/* light mode section Ends */
+
+/* Dark screen code */
+
+/* .hov{
+  
+  background-color: hsl(235, 24%, 19%) ;
+} */
+
+.bg-deskdark{
+  background-image: url(./images/bg-desktop-dark.jpg);
+  height: 40vh;
+  background-size: cover;
+  position: relative;
+}
+
+.body-dark{
+  background-color:  hsl(235, 21%, 11%);
+  color: hsl(234, 39%, 85%);
+}
+
+.bg-dark{
+  background-color:  hsl(235, 24%, 19%)  !important;
+}
+
+.all{
+color:hsl(220, 98%, 61%);
+}
+
+.dcom-col{
+  color: hsl(234, 11%, 52%);
+}
+
+.dac-col{
+  color: hsl(236, 9%, 61%);
+}
+
+.dac-col:hover{
+  color: hsl(236, 33%, 92%);
+}
+
+.dcom-col:hover{
+  color: hsl(236, 33%, 92%);
+}
+
+.dark-outline{
+  border: hsl(233, 14%, 35%)!important;
+}
+
+/* Dark mode section ends */
+
+.checkbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius:100%;
+}
